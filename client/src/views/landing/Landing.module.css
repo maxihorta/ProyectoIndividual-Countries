@@ -1,0 +1,42 @@
+.background{
+     background-image: url(../../img/background-Landing.jpg) ;
+     background-size: 100% 100vh; 
+    background-repeat: no-repeat;
+}
+.backgroundColor{
+    background-color: rgba(244,234,206,0.6);
+    width: auto;
+    height: 100vh;
+}
+.container{  
+   
+    position: absolute;
+    margin: 15% 0px 0px 36%;
+    padding: 20px;
+    width: 28%;
+    color:rgb(52, 39, 39);
+  border-radius: 30px;
+  border: 2px solid white;
+  box-shadow: 0 0 20px rgb(46, 53, 49);
+  text-shadow: rgb(201, 201, 201) 0.1em 0.1em 0.2em;
+  background-color: rgba(244,234,206,0.7);
+    align-items: center;
+    text-align: center;
+    
+}
+.buttonHome{
+    border-radius: 15px;
+    width: 30%;
+    height: 50px;
+    margin-top: 30px;
+}
+.title{
+    width: 100%;
+    font-size: 45px;
+}
+
+.description{
+    width: 100%;
+    font-size: 25px;
+    margin: 0 auto;
+}

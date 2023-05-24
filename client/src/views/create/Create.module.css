@@ -1,0 +1,279 @@
+.container{
+    
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+border: 2px solid black;
+}
+.container form{
+
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 0 0 20px rgb(46, 53, 49);
+    
+  background-color: rgba(244,234,206,0.3);
+
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    width: 50%;
+    height: 50%;
+ 
+    justify-content: center;
+}
+.container h1{
+  margin: 0px 0 7% 0 ;
+    
+}
+
+.buttonX{
+   position: absolute;
+   right: 26%;
+   top: 26%;
+   height: 50px;
+   width: 50px;
+   background-color: red;
+   color: white;
+   font-size: 30px;
+   border-radius: 50%;
+   cursor: pointer;
+   border: 2px solid black;
+}
+ .input{
+    margin: 0 auto;
+  display: flex;
+    
+     align-items: center;
+    justify-content: center;
+   height: 40%;
+    margin-bottom: 3%;
+    margin-top: 10px;
+ max-width: 40%;
+    min-width: 30%;  border-radius: 30px;
+   border: 0px;
+    box-shadow: 0 0 20px rgb(46, 53, 49);
+ background-color: rgba(255, 255, 255, 0.637);
+    text-align: center;
+}
+
+
+.countriesSelect{
+    display: grid;
+    flex-direction: column;
+   align-items: center;
+   
+    width: 14%;
+    height: 28%;
+position: absolute;
+right: 26%;
+top: 42%;
+
+border-radius: 30px;
+
+box-shadow: 0 0 20px rgb(46, 53, 49);
+
+background-color: rgba(214, 166, 166, 0.637);
+  
+}
+
+.buttonCountries{
+    display: flex ;
+    float: left ;
+ padding-left: 10px;
+
+    margin: 10px;
+    border: 1px solid black;
+    
+    min-width: 75%;
+    height: 30px;
+    
+ justify-content: space-between;
+    
+border-radius: 30px;
+
+box-shadow: 0 0 5px rgb(46, 53, 49);
+
+background-color: rgb(139, 127, 127);
+}
+.buttonCountries button{
+    
+    margin-left: 10px;
+    border: none;
+    border-radius: 50px;
+    width: 50%;
+    height: 100%;
+}
+
+.buttonCountries li{
+display: flex;
+justify-content: space-between;
+    list-style: none;
+}
+
+.containerSelect{
+    display: flex;
+    float: left;
+
+}
+
+/* alert */
+
+.errorContainer{
+    position: absolute;
+    
+    width: 14%;
+    height: 28%;
+position: absolute;
+left: 26%;
+top: 41%;
+}
+
+ .errorAlertN{
+   height: 30px;
+    width: 300px;
+    margin-bottom: 15px;
+    min-height: 30px;
+    padding: 2px 5px ;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: rgba(176, 30, 30, 0.804);
+    color: white;
+}
+ .errorAlertDi{
+   
+    min-height: 30px;
+    padding: 2px 5px ;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: rgba(176, 30, 30, 0.804);
+    color: white;
+}
+
+.errorAlertDu{
+    min-height: 30px;
+    
+    padding: 2px 5px ;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: rgba(176, 30, 30, 0.804);
+    color: white;
+}
+
+.errorAlertS{
+   
+    min-height: 30px;
+
+    padding: 2px 5px ;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: rgba(176, 30, 30, 0.804);
+    color: white;
+}  
+
+.errorAlertI{
+   
+    min-height: 30px;
+  
+    padding: 2px 5px ;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: rgba(176, 30, 30, 0.804);
+    color: white;
+}  
+
+.send{
+    border: 1px solid #8d6233;
+    border-radius: 30px;
+    background-color: #946a3e;
+    color: #fff;
+  height: 50px;
+  width: 100px;
+    font-size: 1.5rem;
+    margin-top: -40px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
+      0 1px 3px rgba(0,0,0,.2);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#a18063),to(#ceaf94));
+    background-image: linear-gradient(rgb(234, 221, 203) 10%,#a18063 100%);
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+.container form{
+    width: 90%;
+    height: 90%;
+}
+.buttonX{
+    top: 7%;
+    right: 8%;
+}
+ .container form {
+  padding: 0px;
+    justify-content: start;
+    
+}
+  .container form h1{
+    margin-top: 120px;
+    font-size: 60px;
+  }
+  .input{
+    max-width: 100%;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 40px;
+  }
+  .container form label{
+    font-size: 30px;
+    text-align: start;
+  }
+
+
+.errorAlertN{
+    width: 400px;
+    left: 0px;
+    top: -90px;
+    font-size: 20px;
+    padding: 0px;
+}
+.errorAlertDi{
+    width: 400px;
+    left: 0px;
+    top: 30px;
+    font-size: 20px;
+    padding: 0px;
+}
+.errorAlertDu{
+    width: 400px;
+    left: 0px;
+    top: 150px;
+    font-size: 20px;
+    padding: 0px;
+}
+.errorAlertS{
+    width: 400px;
+    left: 0px;
+    top: 270px;
+    font-size: 20px;
+    padding: 0px;
+}
+.errorAlertI{
+    width: 400px;
+    left: 0px;
+    top: 390px;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.countriesSelect{
+
+position: absolute;
+top: 80%;
+width: 80%;
+height: 170px;
+left: 10%;
+}
+.countriesSelect h2{
+    margin-bottom: 0px;
+}
+      }

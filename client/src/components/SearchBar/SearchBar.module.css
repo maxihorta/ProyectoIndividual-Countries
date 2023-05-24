@@ -1,0 +1,24 @@
+.search{
+    outline:none;
+    border-radius: 15px;
+    border: 1px solid #39c;
+    padding-left: 15px;
+    margin-right: 20px;
+    width: 200px;
+    height: 35px;
+}
+.inputIcon{
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+   margin-left: -45px;
+}
+  
+@media (max-width: 1050px) {
+.search{
+    margin-bottom: 30px;
+}
+    
+  }

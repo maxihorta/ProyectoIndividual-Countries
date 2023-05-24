@@ -1,0 +1,17 @@
+body{
+      
+        background: url(../../img/background-home.jpg);
+       background-size: 100% 100vh;
+}
+.title{
+    margin: 75px 0 50px 0;
+    font-size: 30px;
+    color: #0ccac4;
+    font-family: "Bigelow Rules";
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

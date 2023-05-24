@@ -1,0 +1,146 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 0 0 20px rgb(46, 53, 49);
+    max-width: 350px;
+    min-width: 350px;
+    max-height: 440px;
+    min-height: 440px;
+    background-color: rgba(244, 234, 206, 0.539);
+    margin-left: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+.containerLink{
+    text-decoration: none;
+    color: rgb(63, 42, 42);
+     padding: 25px;
+     
+}
+
+.container:hover{
+    transform: scale(1.03);
+}
+
+.container h2{
+    color: rgb(63, 42, 42);
+    position: absolute;
+    right: 5px;
+    top:-35px; 
+    background-color: rgba(244, 234, 206, 0.539);
+    border: 2px solid white;
+    box-shadow: 0 0 20px rgb(46, 53, 49);
+    border-radius: 15px;
+    padding: 3px;
+    
+}
+.container h1{
+    margin-top: 55px;
+    max-height: 80px;
+    text-overflow:ellipsis;
+     max-width: 320px;
+     word-wrap: break-word;
+    overflow: hidden;
+}
+.container img{
+    max-height: 190px;
+    min-height:190px;
+    max-width: 320px;
+    min-width: 320px;
+    margin-left: -7px;
+  margin-top: 5px;
+}
+
+
+
+@media (max-width: 2160px) {
+    .container{
+        max-width: 300px;
+        min-width: 300px;
+       font-size: 22px;
+        min-height: 350px;
+
+    }
+    .container img{
+        max-height: 190px;
+        min-height:190px;
+        max-width: 280px;
+        min-width: 280px;
+       margin-left: -15px;
+      margin-top: 5px;
+        
+    }
+     .container h2{
+        margin-top: 40px;
+    }
+    .container h1{
+        margin-top: 55px;
+        max-height: 50px;
+        text-overflow:ellipsis;
+         max-width: 320px;
+         word-wrap: break-word;
+        overflow: hidden;
+    } 
+    }
+
+    
+
+@media (max-width: 1865px) {
+    .container{
+        max-width: 250px;
+        min-width: 250px;
+        font-size: 20px;
+        min-height: 350px;
+
+    }
+    .container img{
+        max-height: 150px;
+        min-height:150px;
+        max-width: 230px;
+        min-width: 230px;
+       
+      
+    }
+    .container h2{
+        margin-top: 40px;
+    }
+    .container h1{
+        margin-top: 30px;
+    }
+    }
+
+
+    @media (max-width: 550px) {
+        .container{
+            max-width: 400px;
+            min-width: 400px;
+           font-size: 22px;
+            min-height: 300px;
+         margin-left: 80px;
+        }
+        .container img{
+            max-height: 190px;
+            min-height:190px;
+            max-width: 380px;
+            min-width: 380px;
+           margin-left: -15px;
+          margin-top: 5px;
+            
+        }
+         .container h2{
+            margin-top: 40px;
+        }
+        .container h1{
+            margin-top: 55px;
+            max-height: 50px;
+            text-overflow:ellipsis;
+             max-width: 320px;
+             word-wrap: break-word;
+            overflow: hidden;
+        } 
+        }
+    

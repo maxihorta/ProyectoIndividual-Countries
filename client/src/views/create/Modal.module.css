@@ -1,0 +1,43 @@
+.container {
+    position: absolute;
+    margin: 12% 24%;
+    width: 52%;
+    height: 52%;
+
+    color: rgb(63, 42, 42);
+
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid white;
+    box-shadow: 0 0 20px rgb(46, 53, 49);
+    border-radius: 15px;
+}
+
+
+.buttonHome {
+    position: absolute;
+    margin: 25px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    right: 0px !important;
+    
+}
+.info{
+    
+    background-color: rgba(255, 255, 255, 0.8);
+ 
+    box-shadow: 0 0 20px rgb(46, 53, 49);
+    border-radius: 15px;
+    width: 50%;
+    text-align: start;
+   margin-left: 25%;
+   padding: 15px;
+}
+.idCountry{
+    background-color: rgba(255, 255, 255, 0.8);
+ padding: 5px;
+ margin: 10px;
+    box-shadow: 0 0 5px rgb(46, 53, 49);
+    border-radius: 15px;
+}

@@ -1,0 +1,113 @@
+.container{
+    
+    
+    width: 50%;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 25vh;
+    
+    color:rgb(224, 178, 178);
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 0 0 20px rgb(46, 53, 49);
+    
+  background-color: rgba(244,234,206,0.3);
+}
+.close{
+  position: absolute;
+  right: 25.5%;
+  top: 25.5%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 50px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom:7px ;
+  background-color: rgba(255, 0, 0, 0.957);
+  color: white;
+}
+
+.image {
+    
+    position: absolute;
+    
+    width: 50%;
+    height: 50vh;
+    background-color: rgba(112, 120, 117, 0.489);
+    
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+   border-radius: 30px;
+  }
+.opacity{
+  position: absolute;
+  border-radius: 30px;
+  width: 50%;
+    height: 50vh;
+  background-color: rgba(0, 0, 0, 0.51);
+  
+}
+  
+
+  .title{
+    color:rgb(255, 255, 255);
+    text-shadow: 5px 5px 10px black;
+    text-align: start;
+    position: relative;
+font-size: 70px;
+text-align: center;
+text-overflow:clip;
+
+
+padding-top: 30px;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+word-break:break-all;
+margin: 0 0 1em 1em;
+
+  }
+
+  .detail{
+    
+   float: left ;
+   margin: 80px 0px 0px 300px;
+   text-align: start;
+  }
+
+  @media (max-width: 1700px) {
+    .detail{
+    max-width: 0px;
+    height: 0px;
+    padding: 0px;
+    border: none;
+    font-size: 0px;
+    }
+      }
+
+      @media (max-width: 1000px) {
+        .close{
+          top: 20px;
+          right: 20px;
+        }
+        .title{
+       top: 20px;
+        font-size: 70px;
+       
+        }
+        .container, .image, .opacity{
+          margin: 0px;
+          padding: 0px;
+          height: 100vh;
+          top: 0px;
+          width: 100%;
+          font-size: 25px;
+          
+        }
+      
+          }
